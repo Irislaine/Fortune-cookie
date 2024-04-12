@@ -26,9 +26,8 @@ button {
 /* ---- App --- */
 
 .app {
-  min-height: none;
-  min-width: none;
-  background-image: 'url(../public/fortuna-2/fondo1.png)';
+  background-image: url(../public/fortuna-2/fondo1.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -39,7 +38,7 @@ button {
 }
 
 .app__title {
-  width: 290px;
+  width: 250px;
   text-align: center;
   text-shadow: 2px 2px orange,
     2px -2px orange,
@@ -49,8 +48,8 @@ button {
 }
 
 .text {
-  width: max-content;
-  height: 288px;
+  max-width: 80%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,7 +57,6 @@ button {
 }
 
 .text p {
-  width: max-content;
   text-align: center;
   color: rgb(154, 100, 30);
   padding: 7px 12px;
